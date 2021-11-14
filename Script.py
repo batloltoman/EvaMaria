@@ -1,6 +1,6 @@
 class script(object):
-    START_TXT = """𝙷𝙴𝙻𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, Hey,I can give you movies by typing it's name so 𝙴𝙽𝙹𝙾𝚈😇 Only works in group. I am a member of Renegades 🍎"""
+    START_TXT = """𝓗𝓮𝔂 {},
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>,I can give you movies by typing it's name so 𝙴𝙽𝙹𝙾𝚈😇 Only works in group.Construction isn't finished yet🥴 My developer is dead for now,will reborn on April,2022.So give u update after that till now bye 🍎"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
