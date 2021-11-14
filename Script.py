@@ -24,8 +24,8 @@ SOURCE_TXT = """
 
 <b>NOTE:</b>
 
-1. only admins can add filters in a chat.
-2. alert buttons have a limit of 64 characters.
+1. Only admins can add filters in a chat.
+2. Alert buttons have a limit of 64 characters.
 
 <b>Commands and Usage:</b>
 • /filter - <code>add a filter in chat</code>
