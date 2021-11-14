@@ -34,13 +34,13 @@ SOURCE_TXT = """
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- Chikku Supports both url and alert inline buttons.
+- C𝓱ᵢ𝓴𝓴ᵤ Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
 
 2. Buttons should be properly parsed as markdown format
-3.  **Chikku** should have admin privillage
+3. C𝓱ᵢ𝓴𝓴ᵤ should have admin privillage
 <b>URL buttons:</b>
 <code>[Button Text](buttonurl:https://t.me/cp_renegade)</code>
 
