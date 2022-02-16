@@ -104,5 +104,5 @@ Added By - {}
     LOG_TEXT_P = """#NewUser⚡Zenitsu
 ID - <code>{}</code>
 Name - {}
-
 """
+
