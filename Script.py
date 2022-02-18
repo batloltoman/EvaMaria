@@ -30,9 +30,9 @@ class script(object):
 
 
 
-    BUTTON_TXT = """Help: <b>Buttons</b>
+    BUTTON_TXT =  """Help: <b>Buttons</b>
 
-- I Love Nezuko Chan!!🥺
+-Test
 
 <b>NOTE:</b>
 🦆 Tanjiro Save Meee
