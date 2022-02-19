@@ -677,9 +677,9 @@ async def auto_filter(client, msg, spoll=False):
             url = imdb['url']
         )
     else:
-        cap = f"<i>⚡Hey, I have found this on ur query⚡</i>**{search}**\n<i>Join @cp_renegade to know more about us✨</i> {total}"
-   if​results​: 
- ​        ​switch_pm_text​ ​=​ ​f"​{​Results - ​{​total​}​"
+        cap = f"<i>⚡Hey, I have found this on ur query⚡</i>: **{search}**\n<i>Join @cp_renegade to know more about us✨</i>"
+   
+ 
    if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
