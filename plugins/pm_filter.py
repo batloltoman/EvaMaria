@@ -41,7 +41,7 @@ async def give_filter(client, message):
 async def next_page(bot, query):
     ident, req, key, offset = query.data.split("_")
     if int(req) not in [query.from_user.id, 0]:
-        return await query.answer("oKda", show_alert=True)
+        return await query.answer("Do Your Work.", show_alert=True)
     try:
         offset = int(offset)
     except:
@@ -364,16 +364,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     caption=f_caption,
                     protect_content=True if ident == "filep" else False 
                 )
-                await query.answer('Check PM, I have sent files in pm', show_alert=True)
+                await query.answer('⚡Check PM, I have sent files in pm⚡', show_alert=True)
         except UserIsBlocked:
-            await query.answer('Unblock the bot mahn !', show_alert=True)
+            await query.answer('Unblock me nahh !', show_alert=True)
         except PeerIdInvalid:
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
         except Exception as e:
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("I Like Your Smartness, But Don't Be Oversmart 😒", show_alert=True)
+            await query.answer("I Like Your Smartness, But Don't Be Oversmart 🙂", show_alert=True)
             return
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
@@ -452,7 +452,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
+            InlineKeyboardButton('⚡Renegades⚡', url='https://t.me/cp_renegade')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -708,7 +708,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Here is what i found for your query {search}"
+        cap = f"<i>⚡Hey, I have found this on ur query⚡</i>: {search}\n<i>Join @cp_renegade to know more about us✨</i>""
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
